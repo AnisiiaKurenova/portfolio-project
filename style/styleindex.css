@@ -92,13 +92,19 @@ img{
     height: 450px;
     }
     .header__greeting{
-        font-size: 25px;
+        font-size: 20px;
     }
     h1{
-        font-size: 52px;
+        font-size: 46px;
         margin-bottom: 0;
+    }
+    h2{
+        font-size: 38px;
     }
     .container__project{
         text-align: center;
+    }
+    .mail{
+        font-size: 18px;
     }
 }
