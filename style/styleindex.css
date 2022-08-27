@@ -67,7 +67,7 @@ img{
 }
 .inquiry{
     background-color: #F9F7FE;
-    margin: 60px;
+    margin: 50px;
     border: solid 1px #F9F7FE;
     border-radius: 15px;
 }
@@ -88,24 +88,26 @@ img{
         font-size: 20px;
     }
     h1{
-        font-size: 46px;
+        font-size: 36px;
         margin-bottom: 0;
     }
     h2{
         font-size: 38px;
     }
-    .container__project{
-        text-align: center;
-    }
-    .mail{
-        font-size: 18px;
-    }
+    .container__project, .about-me{
+        text-align: center;   
+}
+.about-me{
+    font-size: 500px;
+}
+
 }
 .about-me__greeting{
      font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #000000;
     font-size: 64px;
+    padding: 15px;
 }
 .wrapper{
     margin: 0 auto;
@@ -123,5 +125,11 @@ img{
     border-radius: 10%;
 }
 .about-me__inquiry{
-    margin-top: 120px;
+    margin-top: 130px;
+}
+.container_project_name{
+ font-family: 'Poppins', sans-serif;;
+font-weight: 700;
+font-size: 24px;
+padding: 15px;
 }
