@@ -1,7 +1,7 @@
 header{
     background: #F9F7FE;
     text-align: center;
-    height: 550px;
+    height: 100vh;
 }
 .header__greeting{
     font-family: 'Poppins', sans-serif;
@@ -10,6 +10,9 @@ header{
     color: #272142;
     padding-top: 100px;
     margin: 0;
+}
+.about-me_greeting{
+    padding-top: 30px;
 }
 
 h1{
@@ -33,6 +36,15 @@ h1{
     font-size: 16px;
     line-height: 46px;
     padding: 5px 20px;
+    text-decoration: none;
+    
+}
+.design-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.design-btn:hover{
+    color:white;
 }
 
 .container__p{
@@ -52,6 +64,7 @@ h1{
 .project__description{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 14px;
     opacity: 70%;
     line-height: 30px;
 }
@@ -74,19 +87,41 @@ img{
 .inquiry_p{
     text-align: center;
 }
+.inquiry_btn{
+margin-top: 45px;
+}
 .inquiry_button{
     color:white;
     background-color: #6C63FF;
     padding: 10px 20px;
 }
+.about-me__greeting{
+     font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 64px;
+    padding: 15px;
+}
+.about-me{
+    margin-top: 50px;
+}
+.about-me__inquiry{
+    margin-top: 130px;
+}
 
 @media(max-width:768px){
     header{
-    height: 450px;
+    max-height: 300px;
     }
+    
     .header__greeting{
         font-size: 20px;
+        padding-top: 40px
     }
+    .about-me__greeting, .work-inquiry{
+    font-size: 36px;
+    padding: 15px;
+}
+
     h1{
         font-size: 36px;
         margin-bottom: 0;
@@ -95,20 +130,30 @@ img{
         font-size: 38px;
     }
     .container__project, .about-me{
-        text-align: center;   
+        text-align: center;  
+        font-size: 36px; 
+        margin-top: 25px;
 }
-.about-me{
-    font-size: 500px;
+.header_about__me, .about-me__inf{
+    font-size: 20px;
+}
+.inquiry_btn, .work-inquiry, .about-me__inquiry{
+margin: 5px;
+}
+.work-inquiry{
+    font-size: 26px;
+}
+.about-me__inquiry{
+    margin: 35px;
+}
+.inquiry_btn{
+    text-align: center;
 }
 
+
+
 }
-.about-me__greeting{
-     font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #000000;
-    font-size: 64px;
-    padding: 15px;
-}
+
 .wrapper{
     margin: 0 auto;
     max-width: 1160px;
@@ -117,19 +162,32 @@ img{
     text-align: center;
     max-height: 550px;   
 }
-.about-me{
-    margin-top: 100px;
-}
+
 .about-me__photo{
     width: 300px;
     border-radius: 10%;
 }
-.about-me__inquiry{
-    margin-top: 130px;
-}
+
 .container_project_name{
  font-family: 'Poppins', sans-serif;;
 font-weight: 700;
 font-size: 24px;
 padding: 15px;
+}
+.mail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    
+
+}
+footer{
+    text-align: center;
+}
+.fa-twitter{
+    margin: 40px;
+}
+.code{
+    font-size: 14px;
 }
